@@ -19,13 +19,13 @@ This system allows you to upload documents to Google Drive and ask questions dir
 ---
 
 ## 🏗️ Architecture Overview
-
+Workflow 1 :-
 Google Drive → Text Extraction → Embeddings → Qdrant
-↓
+
+Workflow 2 :-
 User Question → Embedding → Similarity Search → LLM Answer
 
-gherkin
-Copy code
+
 
 ---
 
